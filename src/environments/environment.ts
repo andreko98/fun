@@ -3,7 +3,17 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  firebase: {
+    apiKey: "AIzaSyDnpP30lSKDeCUD1-eFkm-YPBXpRaa1kQ4",
+    authDomain: "andreko-46505.firebaseapp.com",
+    databaseURL: "mongodb://andre:UBi52pKZYAyHi3lt@andre-shard-00-00.6nizd.mongodb.net:27017,andre-shard-00-01.6nizd.mongodb.net:27017,andre-shard-00-02.6nizd.mongodb.net:27017/test?authSource=admin&replicaSet=atlas-om9hjo-shard-0&readPreference=primary&appname=MongoDB%20Compass&ssl=true",
+    projectId: "andreko-46505",
+    storageBucket: "andreko-46505.appspot.com",
+    messagingSenderId: "663170013901",
+    appId: "1:663170013901:web:d66a31d44f593223e5a784",
+    measurementId: "G-M26DFVL51H"
+  }
 };
 
 /*
